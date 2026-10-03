@@ -10,7 +10,7 @@ I'm a Cybersecurity and IT Support student at DeVry University building practica
 - Building and documenting realistic home-lab projects
 - Interested in troubleshooting, system administration, networking, and security operations
 
-## Featured Project
+## Featured Projects
 
 ### [Windows Server Active Directory Help Desk Lab](https://github.com/voscrez-cyber/active-directory-help-desk-lab)
 
@@ -24,10 +24,30 @@ The project includes:
 - Group Policy, password rules, account-lockout controls, and login notices
 - Department file shares, mapped drives, and least-privilege permissions
 - Security auditing and Event Viewer monitoring
-- Documented help-desk tickets covering real troubleshooting scenarios
+- Documented help-desk tickets covering realistic troubleshooting scenarios
 - A network diagram and screenshot evidence of the completed environment
 
-[View the complete project →](https://github.com/voscrez-cyber/active-directory-help-desk-lab)
+[View the complete Active Directory project →](https://github.com/voscrez-cyber/active-directory-help-desk-lab)
+
+---
+
+### [Small-Business Network Troubleshooting Lab](https://github.com/voscrez-cyber/small-business-network-troubleshooting-lab)
+
+I designed, secured, and troubleshot a simulated small-business network in Cisco Packet Tracer for IT, Sales, Human Resources, and internal server services.
+
+The project includes:
+
+- Department segmentation using VLANs 10, 20, 30, and 40
+- IPv4 subnet planning and separate default gateways for each department
+- 802.1Q trunking and router-on-a-stick inter-VLAN routing
+- Router-based DHCP pools with reserved infrastructure addresses
+- Internal DNS and an employee intranet hosted on a dedicated server VLAN
+- An extended ACL restricting Sales access to the HR network
+- Sticky-MAC port security and a disabled unused-port VLAN
+- Verification using ping, traceroute, DHCP bindings, routing tables, and Cisco show commands
+- Three documented troubleshooting tickets involving an incorrect VLAN, stopped DNS service, and disabled switch interface
+
+[View the complete networking project →](https://github.com/voscrez-cyber/small-business-network-troubleshooting-lab)
 
 ## Technical Skills
 
@@ -35,18 +55,19 @@ The project includes:
 |---|---|
 | Operating systems | Windows 11, Windows Server 2022 |
 | Identity and administration | Active Directory, users and groups, organizational units, Group Policy, delegated permissions |
-| Networking | IPv4, TCP/IP, DNS, DHCP, network connectivity testing |
-| Security | Least privilege, password and lockout policies, security auditing, Event Viewer |
-| Support and troubleshooting | Account recovery, access issues, domain connectivity, mapped drives, software features |
-| Tools | PowerShell, RSAT, Oracle VirtualBox, GitHub |
+| Networking | IPv4, subnetting, TCP/IP, DNS, DHCP, VLANs, 802.1Q trunking, inter-VLAN routing |
+| Network security | Network segmentation, extended ACLs, port security, sticky MAC learning, unused-port hardening |
+| Security | Least privilege, password and lockout policies, security auditing, Event Viewer, security-log review |
+| Support and troubleshooting | Account recovery, access issues, domain connectivity, mapped drives, DHCP, DNS, VLAN, switch-port, and routing issues |
+| Tools | PowerShell, RSAT, Oracle VirtualBox, Cisco Packet Tracer, Cisco IOS CLI, GitHub |
 
 ## Currently Learning
 
 - CompTIA A+ hardware, operating systems, networking, security, and troubleshooting
 - PowerShell administration and automation
-- Enterprise networking and security-monitoring fundamentals
+- SIEM fundamentals, security-log collection, alert investigation, and incident response
 - Professional technical documentation and ticket writing
 
 ## Career Direction
 
-I'm working toward an entry-level IT support or help-desk position where I can apply my troubleshooting skills, continue learning in a real environment, and build a strong foundation for a future role in cybersecurity.
+I'm working toward an entry-level IT support or help-desk position where I can apply my troubleshooting skills, continue learning in a real environment, and build a strong foundation for a future role in cybersecurity or security operations.
